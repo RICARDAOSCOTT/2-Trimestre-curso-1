@@ -25,7 +25,6 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns:50% 50%;
-
 }
 
 .container__botao {
@@ -35,4 +34,9 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
